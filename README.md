@@ -7,10 +7,32 @@ This is an example REST service for my UH Manoa talk on 11/16/2018.
 You need to have a copy of JVM 9, and install maven.
 Also, install `jq`, `git` and `vim` for good measure
 
+### Install Homebrew on Mac
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Install Java on Mac
+
+```bash
+brew update
+brew tap caskroom/cask
+```
+
+### Linux: Install Additional Dependencies
+
 ```bash
 sudo apt install default-jdk
 sudo apt install maven
 sudo apt install maven jq git vim
+```
+
+### Mac: Install Additional Dependencies
+
+```bash
+brew install maven
+brew install maven jq git vim
 ```
 
 ## Agenda
