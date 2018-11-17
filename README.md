@@ -4,6 +4,8 @@ This is an example REST service for my UH Manoa talk on 11/16/2018.
 
 ## Setup
 
+### Linux
+
 You need to have a copy of JVM 9, and install maven.
 Also, install `jq`, `git` and `vim` for good measure
 
